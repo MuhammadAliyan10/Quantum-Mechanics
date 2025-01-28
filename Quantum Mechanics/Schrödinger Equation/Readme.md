@@ -6,34 +6,32 @@ The **Schrödinger Equation** is a mathematical equation that describes how the 
 
 The equation is given by:
 
-\[
-i\hbar \frac{\partial}{\partial t} |\Psi(t)\rangle = \hat{H} |\Psi(t)\rangle
-\]
+`iħ ∂Ψ(t)/∂t = H Ψ(t)`
 
-- \( |\Psi(t)\rangle \): The wavefunction, representing the quantum state of the system.
-- \( i \): The imaginary unit (\( i^2 = -1 \)).
-- \( \hbar \): Reduced Planck's constant (\( \hbar = \frac{h}{2\pi} \)).
-- \( \hat{H} \): The Hamiltonian operator, representing the total energy of the system (kinetic + potential).
-- \( \frac{\partial}{\partial t} \): Partial derivative with respect to time, indicating time evolution.
+- `Ψ(t)`: The wavefunction, representing the quantum state of the system.
+- `i`: The imaginary unit (`i² = -1`).
+- `ħ`: Reduced Planck's constant (`ħ = h / 2π`).
+- `H`: The Hamiltonian operator, representing the total energy of the system (kinetic + potential).
+- `∂/∂t`: Partial derivative with respect to time, indicating time evolution.
 
 ---
 
 ## Key Points
 
-### 1. **Wavefunction (\( \Psi \))**
+### 1. **Wavefunction (Ψ)**
 
-The wavefunction contains all the information about a quantum system. Its square (\( |\Psi(x, t)|^2 \)) represents the probability of finding the particle at position \( x \) at time \( t \).
+The wavefunction contains all the information about a quantum system. Its square (`|Ψ(x, t)|²`) represents the probability of finding the particle at position `x` at time `t`.
 
 ### 2. **Time Evolution**
 
 The Schrödinger Equation shows how the wavefunction evolves with time. It connects the particle's current state with its future state.
 
-### 3. **Hamiltonian (\( \hat{H} \))**
+### 3. **Hamiltonian (H)**
 
 The Hamiltonian operator is the total energy of the system. It typically includes:
 
-- **Kinetic Energy**: \( -\frac{\hbar^2}{2m} \nabla^2 \)
-- **Potential Energy**: \( V(x) \)
+- **Kinetic Energy**: `-ħ²/2m ∇²`
+- **Potential Energy**: `V(x)`
 
 ### 4. **Interpretation**
 
@@ -62,3 +60,70 @@ Unlike classical mechanics, which gives precise predictions, the Schrödinger Eq
 ## Summary
 
 The Schrödinger Equation revolutionized our understanding of the microscopic world. It provides a bridge between physical observations and mathematical predictions, making it one of the most profound equations in physics.
+
+---
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    margin: 20px;
+  }
+  h1, h2, h3 {
+    color: #bb86fc;
+  }
+  h1 {
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 10px;
+  }
+  h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+  code {
+    background-color: #333;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    color: #bb86fc;
+  }
+  pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #bb86fc;
+  }
+  blockquote {
+    border-left: 4px solid #bb86fc;
+    padding-left: 10px;
+    color: #e0e0e0;
+    margin: 10px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  a {
+    color: #bb86fc;
+  }
+  a:hover {
+    color: #3700b3;
+  }
+</style>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

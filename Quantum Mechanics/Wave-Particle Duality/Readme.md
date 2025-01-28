@@ -49,3 +49,68 @@ _A beam of particles (e.g., electrons) is aimed at a screen with two slits. A de
 - _Laser work based on quantum principles involving photons._
 
 **It challenges classical ideas of physics, showing how reality works at its most fundamental level.**
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    margin: 20px;
+  }
+  h1, h2, h3 {
+    color: #bb86fc;
+  }
+  h1 {
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 10px;
+  }
+  h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+  code {
+    background-color: #333;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    color: #bb86fc;
+  }
+  pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #bb86fc;
+  }
+  blockquote {
+    border-left: 4px solid #bb86fc;
+    padding-left: 10px;
+    color: #e0e0e0;
+    margin: 10px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  a {
+    color: #bb86fc;
+  }
+  a:hover {
+    color: #3700b3;
+  }
+</style>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

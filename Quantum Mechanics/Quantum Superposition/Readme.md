@@ -25,33 +25,41 @@ For example:
 - A quantum bit (qubit) can be in a superposition of both **0** and **1** at the same time.
 
 Mathematically, a qubit in superposition is represented as:
-\[
+
+$$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-\]
+$$
+
 where:
 
-- \(|\psi\rangle\) is the quantum state of the qubit.
-- \(|0\rangle\) and \(|1\rangle\) are the basis states (analogous to classical 0 and 1).
-- \(\alpha\) and \(\beta\) are complex numbers called **probability amplitudes**.
-- The probabilities of measuring the qubit in state \(|0\rangle\) or \(|1\rangle\) are \(|\alpha|^2\) and \(|\beta|^2\), respectively.
+- `∣ψ⟩` is the quantum state of the qubit.
+- `∣0⟩`and `∣1⟩`are the basis states (analogous to classical 0 and 1).
+- `α` and `β` are complex numbers called **probability amplitudes**.
+- The probabilities of measuring the qubit in state `∣0⟩` or `∣1⟩` are `α` and `β`, respectively.
 
 ---
 
 ## Mathematical Representation
 
-A quantum state \(|\psi\rangle\) in a superposition of two basis states \(|0\rangle\) and \(|1\rangle\) is written as:
-\[
+A quantum state `∣ψ⟩` in a superposition of two basis states `∣0⟩` and `∣1⟩`is written as:
+
+$$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-\]
+$$
+
 where:
 
-- \(\alpha\) and \(\beta\) are complex numbers.
-- The probabilities of measuring \(|0\rangle\) and \(|1\rangle\) are \(|\alpha|^2\) and \(|\beta|^2\), respectively.
-- The state must be normalized, meaning \(|\alpha|^2 + |\beta|^2 = 1\).
+- `α` and `β` are complex numbers.
+- The probabilities of measuring `∣0⟩`and `∣1⟩` are `|α|^2` and `|β|^2`, respectively.
+- The state must be normalized, meaning `|α|^2 + |β|^2 = 1`
 
-For example:
+  For example:
 
-- The state \(\frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle\) has a 50% chance of being measured as \(|0\rangle\) and a 50% chance of being measured as \(|1\rangle\).
+- The state
+  $$
+     |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
+  $$
+  has a 50% chance of being measured as `∣0⟩` and a 50% chance of being measured as `∣1⟩`.
 
 ---
 
@@ -59,16 +67,24 @@ For example:
 
 1. **Linear Combination**:
    Superposition is a linear combination of basis states. For example, a qubit can be in a state like:
-   \[
+
+   $$
    |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
-   \]
-   This means the qubit has a 50% chance of being measured as \(|0\rangle\) and a 50% chance of being measured as \(|1\rangle\).
+   $$
+
+   This means the qubit has a 50% chance of being measured as `∣0⟩` and a 50% chance of being measured as `∣1⟩`.
 
 2. **Interference**:
    Superposition allows quantum states to interfere with each other. This interference can be constructive (amplifying probabilities) or destructive (canceling probabilities), and it is a key mechanism behind quantum algorithms like Shor's algorithm and Grover's algorithm.
 
 3. **Measurement Collapse**:
-   When a quantum system in superposition is measured, it "collapses" into one of the basis states. For example, if you measure a qubit in the state \(\frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle\), it will randomly collapse to either \(|0\rangle\) or \(|1\rangle\) with equal probability.
+   When a quantum system in superposition is measured, it "collapses" into one of the basis states. For example, if you measure a qubit in the state
+
+   $$
+   |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
+   $$
+
+   it will randomly collapse to either `∣0⟩` or `∣1⟩` with equal probability.
 
 4. **No Cloning Theorem**:
    Superposition states cannot be perfectly copied. This is a consequence of the linearity of quantum mechanics and is known as the **no-cloning theorem**.
@@ -96,7 +112,11 @@ For example:
 For example:
 
 - A single qubit in superposition: \(|\psi\rangle = \alpha|0\rangle + \beta|1\rangle\).
-- Two entangled qubits: \(|\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\).
+- Two entangled qubits:
+
+$$
+  |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
+$$
 
 ---
 
@@ -120,36 +140,40 @@ For example:
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
     margin: 20px;
   }
   h1, h2, h3 {
-    color: white;
+    color: #bb86fc;
   }
   h1 {
-    border-bottom: 2px solid #2c3e50;
+    border-bottom: 2px solid #bb86fc;
     padding-bottom: 10px;
   }
   h2 {
     margin-top: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
     padding-bottom: 5px;
   }
   code {
-    background-color: #f4f4f4;
+    background-color: #333;
     padding: 2px 5px;
     border-radius: 3px;
     font-family: "Courier New", monospace;
+    color: #bb86fc;
   }
   pre {
-    background-color: #f4f4f4;
+    background-color: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    color: #bb86fc;
   }
   blockquote {
-    border-left: 4px solid #2c3e50;
+    border-left: 4px solid #bb86fc;
     padding-left: 10px;
-    color: #555;
+    color: #e0e0e0;
     margin: 10px 0;
   }
   table {
@@ -158,12 +182,21 @@ For example:
     margin: 20px 0;
   }
   th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     padding: 8px;
     text-align: left;
   }
   th {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  a {
+    color: #bb86fc;
+  }
+  a:hover {
+    color: #3700b3;
   }
 </style>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

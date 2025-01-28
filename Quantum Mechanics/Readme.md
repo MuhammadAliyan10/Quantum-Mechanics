@@ -10,27 +10,25 @@ Welcome to your introduction to quantum mechanics, tailored for computer science
 
 - Particles like electrons exhibit both wave-like and particle-like behavior.
 - **De Broglie Wavelength Formula**:
-  \[\lambda = \frac{h}{p}\]
+  `λ = h / p`
   Where:
-  - \(\lambda\): Wavelength
-  - \( h \): Planck's constant (\( 6.626 \times 10^{-34} \) Js)
-  - \( p \): Momentum of the particle
+- `λ`: Wavelength
+- `h`: Planck's constant (`6.626 × 10^-34` Js)
+- `p`: Momentum of the particle
 
 ### 2. **Schrödinger Equation**
 
 - Describes how quantum systems evolve over time.
 - **Time-Dependent Schrödinger Equation**:
-  \[
-  i\hbar \frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-  \]
-  - \( \psi(x, t) \): Wave function
-  - \( \hat{H} \): Hamiltonian (energy operator)
-  - \( \hbar \): Reduced Planck's constant (\( h / 2\pi \))
+  `iħ ∂ψ(x,t)/∂t = H ψ(x,t)`
+- `ψ(x, t)`: Wave function
+- `H`: Hamiltonian (energy operator)
+- `ħ`: Reduced Planck's constant (`h / 2π`)
 
 ### 3. **Quantum Superposition**
 
 - A quantum system can exist in multiple states simultaneously until measured.
-- Example: A qubit can be in \( |0\rangle \), \( |1\rangle \), or a combination: \( \alpha|0\rangle + \beta|1\rangle \), where \( |\alpha|^2 + |\beta|^2 = 1 \).
+- Example: A qubit can be in `|0⟩`, `|1⟩`, or a combination: `α|0⟩ + β|1⟩`, where `|α|² + |β|² = 1`.
 
 ### 4. **Quantum Entanglement**
 
@@ -40,29 +38,26 @@ Welcome to your introduction to quantum mechanics, tailored for computer science
 ### 5. **Heisenberg's Uncertainty Principle**
 
 - It's impossible to simultaneously measure both the position and momentum of a particle with absolute precision.
-- Formula:
-  \[
-  \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
-  \]
-  - \( \Delta x \): Uncertainty in position
-  - \( \Delta p \): Uncertainty in momentum
+  `Δx · Δp ≥ ħ/2`
+- `Δx`: Uncertainty in position
+- `Δp`: Uncertainty in momentum
 
 ### 6. **Qubits in Quantum Computing**
 
-- **Qubit**: The basic unit of quantum information, represented as \( |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \).
+- **Qubit**: The basic unit of quantum information, represented as `ψ = α|0⟩ + β|1⟩`.
 - **Quantum Gates**: Operations on qubits, e.g.,
-  - **Hadamard Gate**: Creates superposition.
-    \[
-    H = \frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}
-    \]
-  - **CNOT Gate**: Entangles two qubits.
+- **Hadamard Gate**: Creates superposition.
+  ```
+  H = 1/√2 [1  1]
+           [1 -1]
+  ```
+- **CNOT Gate**: Entangles two qubits.
 
 ### 7. **Pauli Matrices**
 
 - Represent quantum operations:
-  \[
-  \sigma_x = \begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}, \sigma_y = \begin{bmatrix}0 & -i\\i & 0\end{bmatrix}, \sigma_z = \begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}
-  \]
+  `σ_x = [0 1] σ_y = [0 -i] σ_z = [1 0]
+[1 0] [i 0] [0 -1]`
 
 ---
 
@@ -82,26 +77,18 @@ Welcome to your introduction to quantum mechanics, tailored for computer science
 ## Key Formulas Summary
 
 1. **Energy of a Photon**:
-   \[
-   E = h \nu
-   \]
-   Where \( \nu \) is the frequency.
+   `E = hν`
+   Where `ν` is the frequency.
 
 2. **Planck-Einstein Relation**:
-   \[
-   E = \hbar \omega
-   \]
-   Where \( \omega \) is the angular frequency.
+   `E = ħω`
+   Where `ω` is the angular frequency.
 
 3. **Probability Density**:
-   \[
-   P(x, t) = |\psi(x, t)|^2
-   \]
+   `P(x, t) = |ψ(x, t)|²`
 
 4. **Normalization Condition**:
-   \[
-   \int |\psi(x, t)|^2 dx = 1
-   \]
+   `∫ |ψ(x, t)|² dx = 1`
 
 ---
 
@@ -134,3 +121,68 @@ Welcome to your introduction to quantum mechanics, tailored for computer science
 
 - [Qiskit](https://qiskit.org/): Python library for quantum programming.
 - [Quantum Playground](http://www.quantumplayground.net/): Simulator for quantum circuits.
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    margin: 20px;
+  }
+  h1, h2, h3 {
+    color: #bb86fc;
+  }
+  h1 {
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 10px;
+  }
+  h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+  code {
+    background-color: #333;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    color: #bb86fc;
+  }
+  pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #bb86fc;
+  }
+  blockquote {
+    border-left: 4px solid #bb86fc;
+    padding-left: 10px;
+    color: #e0e0e0;
+    margin: 10px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  a {
+    color: #bb86fc;
+  }
+  a:hover {
+    color: #3700b3;
+  }
+</style>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
