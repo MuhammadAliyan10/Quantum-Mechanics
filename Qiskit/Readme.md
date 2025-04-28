@@ -1,0 +1,41 @@
+## Key Qiskit topics for quantum computing (related to qubits):
+
+- [ ] Qubits
+- [ ] Classical Bits
+- [ ] Quantum Gates (Single-Qubit, Multi-Qubit)
+- [ ] Controlled Gates
+- [ ] Measurement
+- [ ] Simulators (QASM, Statevector, Unitary)
+- [ ] Visualization (Circuit, Histogram, State)
+- [ ] Quantum Registers
+- [ ] Classical Registers
+- [ ] Statevectors
+- [ ] Density Matrices
+- [ ] Unitary Matrices
+- [ ] Quantum Algorithms (e.g., Grover, Shor)
+- [ ] Noise Models
+- [ ] Quantum Backends (Simulators, Real Hardware)
+- [ ] Quantum Providers (IBM Quantum, Local)
+- [ ] Circuit Composition
+- [ ] Parameterized Circuits
+- [ ] Quantum Operators
+- [ ] Transpilation
+- [ ] Quantum Information (Entanglement, Fidelity)
+- [ ] Error Mitigation
+- [ ] Pulse Control
+- [ ] OpenQASM
+- [ ] Circuit Optimization
+- [ ] Quantum Tomography
+- [ ] Randomized Benchmarking
+- [ ] Quantum Volume
+- [ ] Dynamic Circuits
+- [ ] Gate Calibration
+- [ ] Quantum Channels
+- [ ] Clifford Circuits
+- [ ] Pauli Operators
+- [ ] Sparse Pauli Operators
+- [ ] Quantum Circuit Libraries
+- [ ] Quantum Fourier Transform
+- [ ] Variational Algorithms (e.g., VQE, QAOA)
+- [ ] Quantum Machine Learning
+- [ ] Circuit Execution and Job Management
